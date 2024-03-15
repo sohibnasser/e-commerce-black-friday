@@ -1,0 +1,19 @@
+.card{
+    width: 100% ;
+    text-align: center ;
+    border-radius : 2rem ; 
+    height : 30rem ;
+    border: none;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.card:hover{
+   border: 1.5px solid rgb(188,156,79);
+}
+
+.card-img{
+    height :300px ;
+    width :80% ;
+    /* margin : 0 auto ; */
+}

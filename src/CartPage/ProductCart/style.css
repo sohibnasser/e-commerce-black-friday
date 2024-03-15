@@ -1,0 +1,145 @@
+.productsCartWrapper{
+    width: 100%;
+    /* overflow: hidden; */
+    margin: 13rem 0 5rem 0;
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+.td_img{
+    width : 100px ;
+    height : 100px ;
+
+}
+
+
+@media screen and (max-width:900px) {
+    .td_img{
+        margin-top: 1%;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .td_img{
+        width : 70px ;
+        height : 80px ;
+    }
+}
+
+
+
+.td_Description{
+    width : 40% ;
+}
+
+@media screen and (max-width:900px) {
+    .td_Description{
+        margin-top: 75%;
+    }
+}
+
+
+@media screen and (max-width:520px) {
+    .td_Description{
+        width : 10% ;
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width:400px) {
+    .td_Description{
+        width : 5% ;
+        font-size: 13px;
+    }
+}
+
+
+
+.td_QUANTITY{
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+    height: 8rem;
+}
+
+
+@media screen and (max-width:900px) {
+    .td_QUANTITY{
+        display: block;
+        margin-top: 10%;
+        height: 7rem;
+    }
+}
+
+@media screen and (max-width:710px) {
+    .td_QUANTITY{
+        display: block;
+        margin-top: 10%;
+        height: 7.6rem;
+    }
+}
+
+
+.span_QUANTITY{
+    width: 70%;
+    justify-content: center;
+    display: flex;
+    gap: 30%;
+    padding : 10px 0 ;
+    cursor : pointer ;
+    border : 1.5px solid rgb(188,156,79) ;
+    border-radius : 10px
+}
+
+@media screen and (max-width:900px) {
+    .span_QUANTITY{
+        margin: 0 auto 6% auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .span_QUANTITY{
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width:550px) {
+    .span_QUANTITY{
+        margin: 0 0 15% 0;
+    }
+}
+
+
+
+
+.checkout{
+    direction : rtl ;
+    margin : 5% 0;
+}
+
+.btn_checkout{
+    text-decoration : none ;
+    color : white ;
+    background-color : black ;
+    border-radius : 15px ;
+    padding : .7rem 10rem ;
+}
+
+
+
+@media screen and (max-width:438px) {
+    .btn_checkout{
+        border-radius : 10px ;
+        padding : .5rem 6.2rem ;
+    }
+}
